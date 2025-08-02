@@ -9,9 +9,3 @@ A simple Python implementation of the Caesar cipher, an ancient encryption techn
 - Handles both uppercase and lowercase letters (converts to lowercase)
 - Preserves non-alphabetic characters (spaces, punctuation, etc.)
 - Automatic key wrapping (handles keys >26 correctly)
-
-## Usage
-
-### Encryption
-```python
-encrypted_message = caesar_encrypt(message, key)
